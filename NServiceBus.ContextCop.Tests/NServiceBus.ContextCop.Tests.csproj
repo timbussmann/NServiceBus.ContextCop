@@ -70,6 +70,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NServiceBus.ContextCop\NServiceBus.ContextCop.csproj">
+      <Project>{d4641c7c-ca92-4436-897f-beea7e8db8b1}</Project>
+      <Name>NServiceBus.ContextCop</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
